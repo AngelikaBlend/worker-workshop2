@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+
+    <title>Worker - Example</title>
+</head>
+
+<body>
+    <p>
+        Calculate factorial
+        <input id="factorial" value="2000" size="100">
+    </p>
+    <button onclick="doCalculation()" id="calculateButton">Start Calculation</button>
+    <button onclick="cancelCalculation()" id="cancelButton">Cancel</button>
+
+    <div id="primeContainer">
+    </div>
+
+    <div id="status"></div>
+    <script src="/assets/main.min.js"></script>
+</body>
+
+</html>
